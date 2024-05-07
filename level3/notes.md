@@ -51,6 +51,7 @@ const jsx_heading = <h1 id="parent">This element is created by JSX</h1>;
 - **Usage:** To use a functional component in a render method, wrap it in angle brackets (`<>...</>`).
 - **Naming Convention:** Component names must start with capital letters, e.g., `<HeadingComponent />`.
 - **Example:**
+
   ```jsx
   const HeadingComponent = () => {
     return (
@@ -59,5 +60,6 @@ const jsx_heading = <h1 id="parent">This element is created by JSX</h1>;
       </div>
     );
   };
+
   root.render(<HeadingComponent />);
   ```
